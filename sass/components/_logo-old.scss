@@ -1,0 +1,29 @@
+.logo {
+  font-family: $logo-font-family;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+}
+
+.logo-header {
+  color: #000000;
+}
+
+.logo-footer {
+  color: white;
+}
+
+.logo-accent {
+  color: $accent-color;
+}
+
+.main-logo {
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+
+.secondary-logo {
+  display: block;
+  margin-bottom: 20px;
+}

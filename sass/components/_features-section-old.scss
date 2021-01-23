@@ -1,0 +1,60 @@
+.section.features {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.feature-list {
+  display: flex;
+}
+
+.feature-item {
+  width: 270px;
+
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
+}
+
+.feature-list .title {
+  color: $title-text-color;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.2;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.feature-list .specification {
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.thumb {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 120px;
+  margin-bottom: 30px;
+  border-radius: 4px;
+  background-color: #f5f4fa;
+}
+
+.antenna {
+  width: 70px;
+  height: 70px;
+}
+
+.clock {
+  width: 70px;
+  height: 70px;
+}
+
+.diagram {
+  width: 70px;
+  height: 70px;
+}
+
+.astronaut {
+  width: 70px;
+  height: 70px;
+}

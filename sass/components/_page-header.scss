@@ -220,3 +220,11 @@
 
   fill: currentColor;
 }
+
+header {
+  @media screen and (max-width: 767px) {
+    height: 62px;
+  }
+
+  border-bottom: 1px solid #ececec;
+}

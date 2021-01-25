@@ -24,7 +24,7 @@
       margin-right: 0px;
     }
 
-    &:nth-last-child(-n + 2) {
+    &:nth-last-child(-n + 1) {
       margin-bottom: 0px;
     }
   }
@@ -61,7 +61,7 @@
 }
 
 .project-item .group {
-  padding: 20px 24px;
+  padding: 20px 12px 20px 24px;
 }
 
 .project-item .title {

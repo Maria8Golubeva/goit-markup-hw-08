@@ -710,6 +710,16 @@ img {
   fill: currentColor;
 }
 
+header {
+  border-bottom: 1px solid #ececec;
+}
+
+@media screen and (max-width: 767px) {
+  header {
+    height: 62px;
+  }
+}
+
 .hero {
   background-color: #2f303a;
   letter-spacing: 0.06em;
@@ -722,12 +732,6 @@ img {
   background-size: cover;
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/hero/hero-mobile@1x.jpg);
   background-image: linear-gradient(to bottom, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero/hero-mobile@1x.jpg);
-}
-
-@media screen and (max-width: 767px) {
-  .hero {
-    margin-top: 60px;
-  }
 }
 
 @media screen and (max-width: 1199px) {
@@ -1679,6 +1683,9 @@ img {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
   }
 }
 
@@ -2063,7 +2070,7 @@ img {
   .project-item:nth-child(2n) {
     margin-right: 0px;
   }
-  .project-item:nth-last-child(-n + 2) {
+  .project-item:nth-last-child(-n + 1) {
     margin-bottom: 0px;
   }
 }
@@ -2101,7 +2108,7 @@ img {
 }
 
 .project-item .group {
-  padding: 20px 24px;
+  padding: 20px 12px 20px 24px;
 }
 
 .project-item .title {
